@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Tarifas | Gran Hotel Gaby</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logo_gran_hotel_gaby.png" sizes="128x128">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilos_tar.css">
+    <link rel="stylesheet" href="estilos/fonts.css">
+</head>
+<body>         
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                    <h1 class="logo">Gran Hotel Gaby</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone">999-999-999</span>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span class="icon-location">Av. Relax 123 - Mendoza, Argentina</span>
+                </p>
+            </div>
+        </div>
+    </header>
+        
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+                <li class="menu__item"><a href="servicios.html" class="menu__link">Servicios</a></li>
+                <li class="menu__item"><a href="restaurant.html" class="menu__link">Restaurant</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link">Galería</a></li>
+                <li class="menu__item"><a href="tarifas.html" class="menu__link menu__link--select">Tarifas</a></li>
+                <li class="menu__item"><a href="ubicacion.html" class="menu__link">Ubicación</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-gmail"></span></a>
+            </div>
+        </div>
+    </nav>
+                                
+    <section class="banner">
+        <img src="img/banner_5.jpg" alt="" class="banner__img">
+        <div class="banner__content">Las mejores promociones, te esperamos.</div>
+    </section>
+    
+    <main class="main">
+        <section class="group today-special">
+            <h2 class="group__title">Tarifas</h2>
+            <div class="container container--flex">
+                <div class="column column--50-25">
+                    <div class="today-special__title">Simple</div>
+                    <div class="today-special__price">$AR 1999</div>
+                    <ul class="today-special__description">
+                        <li>TV por cable - WiFi</li>
+                        <li>Desayuno buffet</li>
+                        <li>Aire Acondicionado</li>
+                        <li>Sala de Reuniones</li>
+                        <li>Servicio Médico</li>
+                    </ul>
+                    <ul class="today-special__description-off">
+                        <li>7 noches</li>
+                        <li>Salida 16 de Enero</li>
+                    </ul>
+                    <a href="#promo" class="today-special__title off">Promo 1</a>
+                </div>
+                <div class="column column--50-25">
+                    <div class="today-special__title">Base doble Clásica</div>
+                    <div class="today-special__price">$AR 2499</div>
+                    <ul class="today-special__description">
+                        <li>DirecTV - Netflix</li>
+                        <li>Desayuno Continental</li>
+                        <li>Calefacción central</li>
+                        <li>Cofre de Seguridad</li>
+                        <li>Room Service 24 hs</li>
+                    </ul>
+                    <ul class="today-special__description-off">
+                        <li>10 noches</li>
+                        <li>Salida 16 de Diciembre</li>
+                    </ul>
+                    <a href="#promo" class="today-special__title off">Promo 2</a>
+                </div>
+                <div class="column column--50-25">
+                    <div class="today-special__title">Base doble Suite</div>
+                    <div class="today-special__price">$AR 2999</div>
+                    <ul class="today-special__description">
+                        <li>DirecTV - Netflix</li>
+                        <li>Desayuno Continental</li>
+                        <li>Calefacción central</li>
+                        <li>Room Service 24 hs</li>
+                        <li>Jacuzzi en suite</li>
+                    </ul>
+                    <ul class="today-special__description-off">
+                        <li>12 noches</li>
+                        <li>Salida 12 de Febrero</li>
+                    </ul>
+                    <a href="#promo" class="today-special__title off">Promo 3</a>
+                </div>
+                <div class="column column--50-25">
+                    <div class="today-special__title">Cuádruple</div>
+                    <div class="today-special__price">$AR 3999</div>
+                    <ul class="today-special__description">
+                        <li>DirecTV - Netflix</li>
+                        <li>Desayuno Continental</li>
+                        <li>Aire Acondicionado</li>
+                        <li>Sala de Reuniones</li>
+                        <li>Servicio Médico</li>
+                    </ul>
+                    <ul class="today-special__description-off">
+                        <li>7 noches</li>
+                        <li>Salida 23 de Diciembre</li>
+                    </ul>
+                    <a href="#promo" class="today-special__title off">Promo 4</a>
+                </div>
+            </div>
+        </section>
+        <section class="group">
+            <a name="promo" id="promo"></a>
+            <h2 class="group__title">Reservas</h2>      
+            <form action="reservas_cl.php" method="post"  class="formulary container--flex column">   
+                <label for="" class="formulary__label">Número de DNI:</label><input type="text" name="dni" class="formulary__input-txt" placeholder="Ingrese su DNI..." pattern="[0-9]{7,8}" required>
+                <label for="" class="formulary__label">Nombre:</label><input type="text" name="nombre" class="formulary__input-txt" placeholder="Escriba aquí su nombre..." required>
+                <label for="" class="formulary__label">Teléfono:</label><input type="text" name="telefono" class="formulary__input-txt" placeholder="(Código de Área) - Número" pattern="[0-9]{3,4}-[0-9]{6,7}" required>
+                <label for="" class="formulary__label">Correo:</label><input type="text" name="correo" class="formulary__input-txt" placeholder="usuario@servidor.com" pattern=".+\.com" required>
+                <label for="" class="formulary__label">Seleccione su promo:</label>
+                <select name="promo" class="formulary__input-txt" required>
+				    <option selected value="Simple">Promo 1</option>
+				    <option value="Doble - Clásica">Promo 2</option>	
+				    <option value="Doble - Suite">Promo 3</option>
+				    <option value="Cuádruple">Promo 4</option>
+                </select>
+                <input type="submit" class="btn formulary__btn" value="Enviar">
+                <input type="reset" class="btn formulary__btn" value="Limpiar">
+            </form>
+        </section>
+    </main>
+                           
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">¿Por qué visitarnos?</h2>
+                <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem perferendis incidunt nesciunt saepe, fugiat velit eveniet odit repellendus nisi ea doloremque iure illum eum nemo voluptatem aut. Officia, cumque, fugiat?</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contáctanos</h2>
+                <p class="column__txt">Candelaria 399, Godoy Cruz, Mendoza, Argentina.</p>
+                <p class="column__txt">Teléfono: (0261) 15-6935949</p>
+                <p class="column__txt">consultas@ghgaby.com</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Síguenos en nuestras redes sociales</h2>
+                <p class="column__txt"><a href="" class="icon-facebook">Facebook</a></p>
+                <p class="column__txt"><a href="" class="icon-twitter">Síguenos en twitter</a></p>
+                <p class="column__txt"><a href="" class="icon-youtube">Visítanos en nuestro canal</a></p>
+            </div>
+            <p class="copy">&copy; 2020 Gran Hotel Gaby | Todos los derehos reservados | mecanizados</p>
+        </div>
+    </footer>
+            
+    <script src="js/menu.js"></script>        
+</body>
+</html>
